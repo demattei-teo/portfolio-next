@@ -1,0 +1,3 @@
+const BlurDataUrlUtils = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcsnjHfwAGsgLwgPk90wAAAABJRU5ErkJggg=='
+
+export default BlurDataUrlUtils
