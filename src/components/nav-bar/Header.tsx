@@ -4,7 +4,7 @@ import { FlagAR, FlagBR, FlagUS } from '@/assets'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useState } from 'react'
-import { IconClose, IconMenu, NavBar } from '..'
+import { IconClose, IconMenu, Logo, NavBar } from '..'
 import BlurDataUrlUtils from '../../utils/blurDataUrlUtils'
 
 const icons = [
@@ -33,7 +33,7 @@ function Header() {
     setStateMenu(!stateMenu)
   }
   const classes = {
-    header: clsx('flex flex-col  px-4 py-4 md:flex-row'),
+    header: clsx('wrapper flex flex-col  px-4 py-4 md:flex-row'),
     contResponsive: clsx('col-span-full grid flex-grow items-center [grid-template-areas:"logo_icons"]'),
     logo: clsx('[grid-area:logo] flex gap-2 items-center'),
     contIcons: clsx('grid cursor-pointer self-center justify-self-end overflow-hidden  [grid-template-areas:"icons"] md:hidden')
@@ -42,10 +42,7 @@ function Header() {
   return (
     <header className={classes.header}>
       <div className={classes.contResponsive}>
-        <div className={classes.logo}>
-          <div className='rounded-full bg-blue-900 w-4 h-4' />
-          <span className='font-extrabold tracking-wider-'>TDO</span>
-        </div>
+        <Logo name='TDO' />
         <div onClick={changeValue} className={classes.contIcons}>
           <IconMenu stateNavbar={stateMenu} />
           <IconClose stateNavbar={stateMenu} />
