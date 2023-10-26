@@ -15,3 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@layer components {
+  .wrapper {
+    @apply mx-auto my-0 max-w-5xl;
+  }
+  .asas:hover .child {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #8a1678, #56156e, #2a147d);
+  }
+}
