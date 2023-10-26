@@ -11,7 +11,7 @@ function NavBar({ stateNavbar }: Props) {
 
     ul: clsx('flex flex-col md:flex-row items-center gap-4 self-end overflow-hidden md:gap-7'),
 
-    links: clsx('self-center text-center font-medium text-ms transition duration-1000 ease-in-out hover:text-brown-500 md:opacity-100 hover:rotate-6', stateNavbar && 'opacity-100')
+    links: clsx('self-center text-center font-light text-sm transition duration-1000 ease-in-out hover:text-brown-500 md:opacity-100 hover:rotate-6', stateNavbar && 'opacity-100')
   }
 
   return (

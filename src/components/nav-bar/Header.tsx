@@ -1,6 +1,6 @@
 'use client'
 
-import { FlagAR, FlagBR, FlagUS } from '@/assets'
+import { flagAR, flagBR, flagUS } from '@/assets'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useState } from 'react'
@@ -10,18 +10,18 @@ import BlurDataUrlUtils from '../../utils/blurDataUrlUtils'
 const icons = [
   {
     key: 0,
-    content: <Image fill alt='brasil flag' src={FlagBR} sizes='4vw' priority blurDataURL={BlurDataUrlUtils} />,
+    content: <Image fill alt='brasil flag' src={flagBR} sizes='4vw' priority blurDataURL={BlurDataUrlUtils} />,
 
     value: 'pt-BR'
   },
   {
     key: 1,
-    content: <Image fill alt='united state flag' src={FlagUS} sizes='4vw' blurDataURL={BlurDataUrlUtils} />,
+    content: <Image fill alt='united state flag' src={flagUS} sizes='4vw' blurDataURL={BlurDataUrlUtils} />,
     value: 'en-US'
   },
   {
     key: 2,
-    content: <Image fill alt='argentina flag' src={FlagAR} sizes='4vw' blurDataURL={BlurDataUrlUtils} />,
+    content: <Image fill alt='argentina flag' src={flagAR} sizes='4vw' blurDataURL={BlurDataUrlUtils} />,
     value: 'es-ES'
   }
 ]

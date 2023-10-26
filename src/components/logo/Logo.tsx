@@ -12,7 +12,7 @@ interface Props {
 const Logo = ({ name }: Props) => {
   return (
     <div className='flex gap-2 items-center'>
-      <div className='w-4 h-4 bg-blue-900 rounded-full' />
+      <div className='w-4 h-4 bg-blue-500 rounded-full' />
       <span className='font-extrabold text-ms tracking-wider'>{name}</span>
     </div>
   )

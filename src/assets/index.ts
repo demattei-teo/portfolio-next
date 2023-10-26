@@ -1,3 +1,4 @@
-export { default as FlagAR } from './flagAR.png'
-export { default as FlagBR } from './flagBR.png'
-export { default as FlagUS } from './flagUS.png'
+export { default as flagAR } from './flagAR.png'
+export { default as flagBR } from './flagBR.png'
+export { default as flagUS } from './flagUS.png'
+export { default as fotoCV } from './fotoCV.jpg'
