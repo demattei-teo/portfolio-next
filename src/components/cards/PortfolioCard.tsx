@@ -10,7 +10,7 @@ interface Props {
 
 export default function PortfolioCard({ srcImg, altImg, srcLink }: Props) {
   return (
-    <Link href={srcLink} className='relative min-h-[350px] group'>
+    <Link href={srcLink} className='z-20 relative min-h-[350px] group'>
       <div
         className='absolute right-5 bottom-5 transition lg:opacity-0
        rounded-full shadow-sm lg:group-hover:opacity-100 z-20'

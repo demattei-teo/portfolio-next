@@ -1,4 +1,4 @@
-import { Header, Hero, Portfolio, PortfolioCard } from '@/components'
+import { Footer, Header, Hero, Portfolio, PortfolioCard } from '@/components'
 import { getDictionary } from '@/get-dictionary'
 import { Locale } from '@/i18n-config'
 export default async function Home({ params: { language } }: { params: { language: Locale } }) {
@@ -16,6 +16,7 @@ export default async function Home({ params: { language } }: { params: { languag
           <PortfolioCard srcImg='/assets/mockups/rodaroArquitectos.jpg' srcLink='#' altImg='rodaro arquitectos mockup' />
         </Portfolio>
       </main>
+      <Footer />
     </>
   )
 }
