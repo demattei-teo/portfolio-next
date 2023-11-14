@@ -17,7 +17,7 @@
 }
 @layer components {
   .wrapper {
-    @apply mx-auto my-0 max-w-5xl;
+    @apply mx-auto my-0 max-w-6xl 2xl:max-w-7xl p-4;
   }
   .asas:hover .child {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #8a1678, #56156e, #2a147d);
