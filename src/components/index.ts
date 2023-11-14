@@ -1,5 +1,6 @@
 export { default as InfoCard } from './cards/InfoCard'
 export { default as PortfolioCard } from './cards/PortfolioCard'
+export { default as Footer } from './footer/Footer'
 export { default as Hero } from './hero/Hero'
 export { default as IconCV } from './icons/IconCV'
 export { default as IconClose } from './icons/IconClose'
