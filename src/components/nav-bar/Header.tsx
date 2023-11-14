@@ -1,10 +1,10 @@
 'use client'
 
-import { flagAR, flagBR, flagUS } from '@/assets'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useState } from 'react'
 import { IconClose, IconMenu, Logo, NavBar } from '..'
+import { flagAR, flagBR, flagUS } from '../../../public/assets'
 import BlurDataUrlUtils from '../../utils/blurDataUrlUtils'
 
 const icons = [
