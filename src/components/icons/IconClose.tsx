@@ -6,7 +6,7 @@ interface Props {
 
 function IconClose({ stateNavbar }: Props) {
   const classes = {
-    icon: clsx('h-9 w-9 cursor-pointer transition-transform duration-500 [grid-area:icons]', !stateNavbar && 'translate-x-8')
+    icon: clsx('h-9 w-9 cursor-pointer transition duration-500 [grid-area:icons]', !stateNavbar && 'translate-x-8 opacity-0')
   }
 
   return (
