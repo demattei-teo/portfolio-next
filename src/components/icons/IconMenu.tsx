@@ -6,7 +6,7 @@ interface Props {
 
 function IconMenu({ stateNavbar }: Props) {
   const classes = {
-    icon: clsx('w-9 h-9 [grid-area:icons] transition ease-linear duration-500', stateNavbar && 'translate-x-16 opacity-0')
+    icon: clsx(' w-9 h-9 [grid-area:icons] transition ease-linear duration-500', stateNavbar && 'translate-x-16 opacity-0')
   }
 
   return (
