@@ -3,8 +3,15 @@
 import clsx from 'clsx'
 import { useState } from 'react'
 import { IconClose, IconMenu, Logo, NavBar, SelectLanguage } from '..'
+import { LogoProps } from '../logo/Logo'
+import { NavbarProps } from './NavBar'
 
-function Header() {
+export interface HeaderProps {
+  logo: LogoProps['name']
+  contentLinks: NavbarProps['contentLink']
+}
+
+function Header({ contentLinks }: HeaderProps) {
   const [stateMenu, setStateMenu] = useState(false)
 
   function changeValue() {
@@ -28,7 +35,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <NavBar stateNavbar={stateMenu} />
+      <NavBar stateNavbar={stateMenu} contentLink={contentLinks} />
     </header>
   )
 }

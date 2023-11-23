@@ -22,9 +22,9 @@ export default function SelectLanguage() {
   }
 
   const style = {
-    wrapper: clsx(' grid gap-2'),
+    wrapper: clsx('grid gap-x-2 md:gap-2'),
     wrapperArrow: clsx('grid grid-cols-2 items-center justify-items-center relative justify-self-center'),
-    wrapperFlags: clsx('-translate-y-1 flex flex-col transition-[height,opacity,transform] ease-linear duration-300 gap-2 h-[0px] self-end justify-self-end z-20', stateLanguage && '!h-24 translate-y-0')
+    wrapperFlags: clsx('pt-[6px] md:pt-0 -translate-y-1 flex flex-col transition-[height,opacity,transform] ease-linear duration-300 gap-2 h-[0px] self-end justify-self-end z-20', stateLanguage && '!h-24 translate-y-0')
   }
   const icons = [
     {
@@ -49,7 +49,7 @@ export default function SelectLanguage() {
       </div>
       <ul className={style.wrapperFlags}>
         {icons.map((data, index) => (
-          <li className='relative w-12 h-7' key={index} onClick={() => redirectedPathName(data.value)}>
+          <li className='cursor-pointer relative w-12 h-7' key={index} onClick={() => redirectedPathName(data.value)}>
             {data.content}
           </li>
         ))}

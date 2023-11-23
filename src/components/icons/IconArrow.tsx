@@ -11,5 +11,4 @@ function IconArrow({ state }: Props) {
     </svg>
   )
 }
-
 export default IconArrow
