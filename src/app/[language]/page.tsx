@@ -2,21 +2,21 @@ import { Footer, Header, Hero, Portfolio, PortfolioCard } from '@/components'
 import { getDictionary } from '@/get-dictionary'
 import { Locale } from '@/i18n-config'
 export default async function Home({ params: { language } }: { params: { language: Locale } }) {
-  const Dictionary = await getDictionary(language)
+  const dictionary = await getDictionary(language)
 
   return (
     <>
-      <Header />
+      <Header contentLinks={dictionary.default.home.header.contentLinks} logo={dictionary.default.home.header.logo} />
       <main>
-        <Hero />
+        <Hero description={dictionary.default.home.hero.description} title_h1={dictionary.default.home.hero.title_h1} />
         <Portfolio>
-          <PortfolioCard srcImg='/assets/mockups/lawyer.jpg' srcLink='#' altImg='lawyer mockup' />
-          <PortfolioCard srcImg='/assets/mockups/lottodo-mock2.jpg' srcLink='#' altImg='lottodo mockup' />
-          <PortfolioCard srcImg='/assets/mockups/mova.jpeg' srcLink='#' altImg='mova mockup' />
-          <PortfolioCard srcImg='/assets/mockups/rodaroArquitectos.jpg' srcLink='#' altImg='rodaro arquitectos mockup' />
+          <PortfolioCard srcImg='/assets/mockups/lawyer.jpg' srcLink={`/${language}/lawyer`} altImg='lawyer mockup' />
+          <PortfolioCard srcImg='/assets/mockups/lottodo-mock2.jpg' srcLink={`/${language}/lotTodo`} altImg='lottodo mockup' />
+          <PortfolioCard srcImg='/assets/mockups/mova.jpeg' srcLink={`/${language}/mova`} altImg='mova mockup' />
+          <PortfolioCard srcImg='/assets/mockups/rodaroArquitectos.jpg' srcLink={`/${language}/rodaroArchitects`} altImg='rodaro arquitectos mockup' />
         </Portfolio>
       </main>
-      <Footer />
+      <Footer description={dictionary.default.home.footer.description} title_span={dictionary.default.home.footer.title_span} email={dictionary.default.home.footer.email} />
     </>
   )
 }
