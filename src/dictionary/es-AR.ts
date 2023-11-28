@@ -5,18 +5,18 @@ const ES_AR: DictionaryType = {
     header: {
       logo: 'TDO',
       contentLinks: {
-        contentLinkHome: 'Home',
-        contentLinkProyects: 'Proyects',
-        contentLinkContact: 'Contact'
+        contentLinkHome: 'Inicio',
+        contentLinkProyects: 'Proyectos',
+        contentLinkContact: 'Contactame'
       }
     },
     hero: {
-      title_h1: 'Hi, my name is Teo',
-      description: 'I am a Frontend developer with 2 years of experience working for the digital agency nubedi and the start up No Country,'
+      title_h1: 'Hola, me llamo Teo',
+      description: 'Soy un desarrollador Frontend con 2 años de experiencia trabajando para la agencia digital nubedi y la start up No Country,'
     },
     footer: {
-      title_span: 'Want to work together?',
-      description: 'Feel free to reach out for collaborations or just a friendly hello',
+      title_span: '¿Quieres que trabajemos juntos?',
+      description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
       email: 'dematteiteo@gmail.com'
     }
   },
@@ -64,8 +64,8 @@ const ES_AR: DictionaryType = {
       }
     },
     footer: {
-      title_span: 'Want to work together?',
-      description: 'Feel free to reach out for collaborations or just a friendly hello',
+      title_span: '¿Quieres que trabajemos juntos?',
+      description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
       email: 'dematteiteo@gmail.com'
     }
   }
