@@ -38,8 +38,8 @@ const EN_US: DictionaryType = {
         title_h1: 'Lawyer',
         description: 'Landing page for a law firm, this project was done as an example. It is a website that seeks to capture the attention of potential customers, showing the services offered by the firm, its history and values.',
         tecnologies: 'technology: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
-        githubUrlProyect: 'https://github.com/davidmedev222/mova',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        githubUrlProyect: 'https://github.com/demattei-teo/Lawyer',
+        LinkProyect: 'https://github.com/demattei-teo/Lawyer'
       }
     },
     rodaroArchitects: {
@@ -49,7 +49,7 @@ const EN_US: DictionaryType = {
         title_h1: 'Rodaro architects',
         description: 'Landing page for an architectural firm, this project was made for a client. it is a web page that seeks to capture the attention of customers, showing the services offered.',
         tecnologies: 'technology: HTML - CSS - JAVASCRIPT - SASS',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        LinkProyect: 'https://www.rodaroarquitectos.com.ar/index.html'
       }
     },
     lotTodo: {
@@ -59,8 +59,8 @@ const EN_US: DictionaryType = {
         title_h1: 'Lot todo',
         description: 'The objective of the application is to provide potential users with tools to organize their daily activities through to-do lists divided into categories and with the possibility of viewing them on a daily, weekly and monthly basis.',
         tecnologies: 'technology: Expo - React Native - nativeWind - clsx - husky - JavaScript',
-        githubUrlProyect: 'https://github.com/davidmedev222/mova',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        githubUrlProyect: 'https://github.com/No-Country/C12-38-M-REACTNATIVE',
+        LinkProyect: 'https://expo.dev/@florencia09/lot-todo?serviceType=classic&distribution=expo-go'
       }
     },
     footer: {

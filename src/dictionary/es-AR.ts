@@ -5,18 +5,18 @@ const ES_AR: DictionaryType = {
     header: {
       logo: 'TDO',
       contentLinks: {
-        contentLinkHome: 'Home',
-        contentLinkProyects: 'Proyects',
-        contentLinkContact: 'Contact'
+        contentLinkHome: 'Início',
+        contentLinkProyects: 'Projectos',
+        contentLinkContact: 'Contacto'
       }
     },
     hero: {
-      title_h1: 'Hi, my name is Teo',
-      description: 'I am a Frontend developer with 2 years of experience working for the digital agency nubedi and the start up No Country,'
+      title_h1: 'Hola, me llamo Teo',
+      description: 'Soy un desarrollador Frontend con 2 años de experiencia trabajando para la agencia digital nubedi y la start up No Country'
     },
     footer: {
-      title_span: 'Want to work together?',
-      description: 'Feel free to reach out for collaborations or just a friendly hello',
+      title_span: '¿Quieres que trabajemos juntos?',
+      description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
       email: 'dematteiteo@gmail.com'
     }
   },
@@ -38,8 +38,8 @@ const ES_AR: DictionaryType = {
         title_h1: 'Lawyer',
         description: 'Landing page para un bufete de abogados, este proyecto se realizó a modo de ejemplo. Se trata de una página web que busca captar la atención de clientes potenciales, mostrando los servicios que ofrece el bufete, su historia y sus valores.',
         tecnologies: 'Tecnologias: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
-        githubUrlProyect: 'https://github.com/davidmedev222/mova',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        githubUrlProyect: 'https://github.com/demattei-teo/Lawyer',
+        LinkProyect: 'https://github.com/demattei-teo/Lawyer'
       }
     },
     rodaroArchitects: {
@@ -49,7 +49,7 @@ const ES_AR: DictionaryType = {
         title_h1: 'Rodaro architects',
         description: 'Landing page para un estudio de arquitectura, este proyecto fue realizado para un cliente. es una página web que busca captar la atención de los clientes, mostrando los servicios ofrecidos.',
         tecnologies: 'Tecnologias: HTML - CSS - JAVASCRIPT - SASS',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        LinkProyect: 'https://www.rodaroarquitectos.com.ar/index.html'
       }
     },
     lotTodo: {
@@ -59,13 +59,13 @@ const ES_AR: DictionaryType = {
         title_h1: 'Lot todo',
         description: 'El objetivo de la aplicación es proporcionar a los usuarios potenciales herramientas para organizar sus actividades diarias mediante listas de tareas divididas en categorías y con la posibilidad de visualizarlas diaria, semanal y mensualmente.',
         tecnologies: 'Tecnologias: Expo - React Native - nativeWind - clsx - husky - JavaScript',
-        githubUrlProyect: 'https://github.com/davidmedev222/mova',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        githubUrlProyect: 'https://github.com/No-Country/C12-38-M-REACTNATIVE',
+        LinkProyect: 'https://expo.dev/@florencia09/lot-todo?serviceType=classic&distribution=expo-go'
       }
     },
     footer: {
-      title_span: 'Want to work together?',
-      description: 'Feel free to reach out for collaborations or just a friendly hello',
+      title_span: '¿Quieres que trabajemos juntos?',
+      description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
       email: 'dematteiteo@gmail.com'
     }
   }
