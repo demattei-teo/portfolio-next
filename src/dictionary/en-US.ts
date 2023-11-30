@@ -12,12 +12,16 @@ const EN_US: DictionaryType = {
     },
     hero: {
       title_h1: 'Hi, my name is Teo',
-      description: 'I am a Frontend developer with 2 years of experience working for the digital agency nubedi and the start up No Country,'
+      description: 'I am a Frontend developer with 2 years of experience working for the digital agency nubedi and the start up No Country,',
+      contentButton: 'Contact Me',
+      linkCV: 'https://drive.google.com/file/d/1jzb5Lqk93m4mcxVlwNzrLcJs3LEd-NcB/view?usp=drive_link'
     },
     footer: {
       title_span: 'Want to work together?',
       description: 'Feel free to reach out for collaborations or just a friendly hello',
-      email: 'dematteiteo@gmail.com'
+      email: 'dematteiteo@gmail.com',
+      contentButton: 'Contact Me',
+      linkCV: 'https://drive.google.com/file/d/1jzb5Lqk93m4mcxVlwNzrLcJs3LEd-NcB/view?usp=drive_link'
     }
   },
   proyects: {
@@ -66,7 +70,9 @@ const EN_US: DictionaryType = {
     footer: {
       title_span: 'Want to work together?',
       description: 'Feel free to reach out for collaborations or just a friendly hello',
-      email: 'dematteiteo@gmail.com'
+      email: 'dematteiteo@gmail.com',
+      contentButton: 'Contact Me',
+      linkCV: 'https://drive.google.com/file/d/1jzb5Lqk93m4mcxVlwNzrLcJs3LEd-NcB/view?usp=drive_link'
     }
   }
 }

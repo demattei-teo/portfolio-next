@@ -12,12 +12,16 @@ const ES_AR: DictionaryType = {
     },
     hero: {
       title_h1: 'Hola, me llamo Teo',
-      description: 'Soy un desarrollador Frontend con 2 años de experiencia trabajando para la agencia digital nubedi y la start up No Country'
+      description: 'Soy un desarrollador Frontend con 2 años de experiencia trabajando para la agencia digital nubedi y la start up No Country',
+      contentButton: 'Contacteme',
+      linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
     },
     footer: {
       title_span: '¿Quieres que trabajemos juntos?',
       description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
-      email: 'dematteiteo@gmail.com'
+      email: 'dematteiteo@gmail.com',
+      contentButton: 'Contactame',
+      linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
     }
   },
   proyects: {
@@ -39,7 +43,7 @@ const ES_AR: DictionaryType = {
         description: 'Landing page para un bufete de abogados, este proyecto se realizó a modo de ejemplo. Se trata de una página web que busca captar la atención de clientes potenciales, mostrando los servicios que ofrece el bufete, su historia y sus valores.',
         tecnologies: 'Tecnologias: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
         githubUrlProyect: 'https://github.com/demattei-teo/Lawyer',
-        LinkProyect: 'https://github.com/demattei-teo/Lawyer'
+        LinkProyect: 'https://lawyerdev.vercel.app/'
       }
     },
     rodaroArchitects: {
@@ -66,7 +70,9 @@ const ES_AR: DictionaryType = {
     footer: {
       title_span: '¿Quieres que trabajemos juntos?',
       description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
-      email: 'dematteiteo@gmail.com'
+      email: 'dematteiteo@gmail.com',
+      contentButton: 'Contactame',
+      linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
     }
   }
 }
