@@ -8,7 +8,7 @@ export interface FooterProps {
 }
 function Footer({ title_span, description, email }: FooterProps) {
   return (
-    <footer className='relative wrapper '>
+    <footer id='contact' className='relative wrapper '>
       <InfoCard mode='footer' email={email} title_span={title_span} description={description} />
       <Image alt='shape' src='/assets/shapes/shape2.png' className='animate-wiggle animate-infinite animate-duration-[2000ms] hidden z-10 absolute -right-10 -top-10 xl:block ' width={156} height={156} sizes='33vw' />
     </footer>

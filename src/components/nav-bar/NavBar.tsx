@@ -23,13 +23,13 @@ function NavBar({ stateNavbar, contentLink }: NavbarProps) {
     <nav className={classes.wrapper}>
       <ul className={classes.ul}>
         <li className={classes.links}>
-          <Link href='#'>{contentLink.contentLinkHome}</Link>
+          <Link href='#home'>{contentLink.contentLinkHome}</Link>
         </li>
         <li className={classes.links}>
-          <Link href='#'>{contentLink.contentLinkProyects}</Link>
+          <Link href='#proyect'>{contentLink.contentLinkProyects}</Link>
         </li>
         <li className={classes.links}>
-          <Link href='#'>{contentLink.contentLinkContact}</Link>
+          <Link href='#contact'>{contentLink.contentLinkContact}</Link>
         </li>
       </ul>
     </nav>
