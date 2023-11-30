@@ -5,18 +5,18 @@ const PT_BR: DictionaryType = {
     header: {
       logo: 'TDO',
       contentLinks: {
-        contentLinkHome: 'Home',
-        contentLinkProyects: 'Proyects',
-        contentLinkContact: 'Contact'
+        contentLinkHome: 'Início',
+        contentLinkProyects: 'Projectos',
+        contentLinkContact: 'Contacto'
       }
     },
     hero: {
-      title_h1: 'Hi, my name is Teo',
-      description: 'I am a Frontend developer with 2 years of experience working for the digital agency nubedi and the start up No Country,'
+      title_h1: 'Olá, o meu nome é Teo',
+      description: 'Sou um programador Frontend com 2 anos de experiência a trabalhar para a agência digital nubedi e para a start up No Country'
     },
     footer: {
-      title_span: 'Want to work together?',
-      description: 'Feel free to reach out for collaborations or just a friendly hello',
+      title_span: 'Quer trabalhar em conjunto?',
+      description: 'Não hesite em contactar-nos para colaborações ou apenas para um olá amigável',
       email: 'dematteiteo@gmail.com'
     }
   },
@@ -26,8 +26,8 @@ const PT_BR: DictionaryType = {
       proyectCard: {
         mode: 'proyect',
         title_h1: 'Mova',
-        description: 'Una aplicación móvil en la que se pueden consultar los catálogos de películas populares, películas más taquilleras, próximas películas, series y mucho más, este proyecto se realizó a modo de ejemplo.',
-        tecnologies: 'technology: Expo - React Native - nativeWind - clsx - husky - TypeScript',
+        description: 'Uma aplicação móvel onde se pode consultar os catálogos de filmes populares, filmes de grande sucesso, filmes futuros, séries e muito mais, este projeto foi feito como exemplo.',
+        tecnologies: 'tecnologia: Expo - React Native - nativeWind - clsx - husky - TypeScript',
         githubUrlProyect: 'https://github.com/davidmedev222/mova'
       }
     },
@@ -36,20 +36,20 @@ const PT_BR: DictionaryType = {
       proyectCard: {
         mode: 'proyect',
         title_h1: 'Lawyer',
-        description: 'Landing page for a law firm, this project was done as an example. It is a website that seeks to capture the attention of potential customers, showing the services offered by the firm, its history and values.',
-        tecnologies: 'technology: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
-        githubUrlProyect: 'https://github.com/davidmedev222/mova',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        description: 'Landing page para um escritório de advogados, este projeto foi feito a título de exemplo. Trata-se de um site que procura captar a atenção de potenciais clientes, mostrando os serviços oferecidos pelo escritório, a sua história e valores.',
+        tecnologies: 'tecnologia: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
+        githubUrlProyect: 'https://github.com/demattei-teo/Lawyer',
+        LinkProyect: 'https://github.com/demattei-teo/Lawyer'
       }
     },
     rodaroArchitects: {
       srcImg: '/assets/mockups/rodaroArquitectos.jpg',
       proyectCard: {
         mode: 'proyect',
-        title_h1: 'Rodaro architects',
-        description: 'Landing page for an architectural firm, this project was made for a client. it is a web page that seeks to capture the attention of customers, showing the services offered.',
+        title_h1: 'Rodaro arquitectos',
+        description: 'Landing page para um gabinete de arquitetura, este projeto foi realizado para um cliente. É uma página web que procura captar a atenção dos clientes, mostrando os serviços oferecidos.',
         tecnologies: 'technology: HTML - CSS - JAVASCRIPT - SASS',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        LinkProyect: 'https://www.rodaroarquitectos.com.ar/index.html'
       }
     },
     lotTodo: {
@@ -57,15 +57,15 @@ const PT_BR: DictionaryType = {
       proyectCard: {
         mode: 'proyect',
         title_h1: 'Lot todo',
-        description: 'The objective of the application is to provide potential users with tools to organize their daily activities through to-do lists divided into categories and with the possibility of viewing them on a daily, weekly and monthly basis.',
-        tecnologies: 'technology: Expo - React Native - nativeWind - clsx - husky - JavaScript',
-        githubUrlProyect: 'https://github.com/davidmedev222/mova',
-        LinkProyect: 'https://github.com/davidmedev222/mova'
+        description: 'O objetivo da aplicação é fornecer aos potenciais utilizadores ferramentas para organizar as suas actividades diárias através de listas de tarefas divididas em categorias e com a possibilidade de as visualizar numa base diária, semanal e mensal.',
+        tecnologies: 'tecnologia: Expo - React Native - nativeWind - clsx - husky - JavaScript',
+        githubUrlProyect: 'https://github.com/No-Country/C12-38-M-REACTNATIVE',
+        LinkProyect: 'https://expo.dev/@florencia09/lot-todo?serviceType=classic&distribution=expo-go'
       }
     },
     footer: {
-      title_span: 'Want to work together?',
-      description: 'Feel free to reach out for collaborations or just a friendly hello',
+      title_span: 'Quer trabalhar em conjunto?',
+      description: 'Não hesite em contactar-nos para colaborações ou apenas para um olá amigável',
       email: 'dematteiteo@gmail.com'
     }
   }
