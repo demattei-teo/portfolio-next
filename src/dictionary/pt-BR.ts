@@ -6,18 +6,22 @@ const PT_BR: DictionaryType = {
       logo: 'TDO',
       contentLinks: {
         contentLinkHome: 'Início',
-        contentLinkProyects: 'Projectos',
+        contentLinkProyects: 'Projetos',
         contentLinkContact: 'Contacto'
       }
     },
     hero: {
       title_h1: 'Olá, o meu nome é Teo',
-      description: 'Sou um programador Frontend com 2 anos de experiência a trabalhar para a agência digital nubedi e para a start up No Country'
+      description: 'Sou um programador Frontend com 2 anos de experiência a trabalhar para a agência digital nubedi e para a start up No Country',
+      contentButton: 'Contacte-Me',
+      linkCV: 'https://drive.google.com/file/d/1QigTVsDJwECQ4-TOA4m7TzieBi_iVhN_/view?usp=drive_link'
     },
     footer: {
       title_span: 'Quer trabalhar em conjunto?',
       description: 'Não hesite em contactar-nos para colaborações ou apenas para um olá amigável',
-      email: 'dematteiteo@gmail.com'
+      email: 'dematteiteo@gmail.com',
+      contentButton: 'Contacte-me',
+      linkCV: 'https://drive.google.com/file/d/1QigTVsDJwECQ4-TOA4m7TzieBi_iVhN_/view?usp=drive_link'
     }
   },
   proyects: {
@@ -39,7 +43,7 @@ const PT_BR: DictionaryType = {
         description: 'Landing page para um escritório de advogados, este projeto foi feito a título de exemplo. Trata-se de um site que procura captar a atenção de potenciais clientes, mostrando os serviços oferecidos pelo escritório, a sua história e valores.',
         tecnologies: 'tecnologia: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
         githubUrlProyect: 'https://github.com/demattei-teo/Lawyer',
-        LinkProyect: 'https://github.com/demattei-teo/Lawyer'
+        LinkProyect: 'https://lawyerdev.vercel.app/'
       }
     },
     rodaroArchitects: {
@@ -48,7 +52,7 @@ const PT_BR: DictionaryType = {
         mode: 'proyect',
         title_h1: 'Rodaro arquitectos',
         description: 'Landing page para um gabinete de arquitetura, este projeto foi realizado para um cliente. É uma página web que procura captar a atenção dos clientes, mostrando os serviços oferecidos.',
-        tecnologies: 'technology: HTML - CSS - JAVASCRIPT - SASS',
+        tecnologies: 'tecnologia: HTML - CSS - JAVASCRIPT - SASS',
         LinkProyect: 'https://www.rodaroarquitectos.com.ar/index.html'
       }
     },
@@ -66,7 +70,9 @@ const PT_BR: DictionaryType = {
     footer: {
       title_span: 'Quer trabalhar em conjunto?',
       description: 'Não hesite em contactar-nos para colaborações ou apenas para um olá amigável',
-      email: 'dematteiteo@gmail.com'
+      email: 'dematteiteo@gmail.com',
+      contentButton: 'Contacte-me',
+      linkCV: 'https://drive.google.com/file/d/1QigTVsDJwECQ4-TOA4m7TzieBi_iVhN_/view?usp=drive_link'
     }
   }
 }
