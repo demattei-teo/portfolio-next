@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
-import './globals.css'
+import './[language]/globals.css'
 
 const inter = Rubik({ subsets: ['latin'] })
 
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   referrer: 'origin-when-cross-origin',
   keywords: ['web development', 'frontend', 'programmer', 'html', 'css', 'javascript', 'react', 'next.js', 'web layout designer', 'web developer', 'frontend web developer', 'frontend developer', 'website builder'],
   authors: [{ name: 'Teo', url: 'https://www.linkedin.com/in/teodemattei/' }],
-  themeColor: 'normal',
   creator: 'Teo Demattei',
   publisher: 'Teo Demattei',
   category: 'desarrollo',
