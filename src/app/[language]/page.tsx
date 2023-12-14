@@ -1,6 +1,7 @@
 import { Footer, Header, Hero, Portfolio, PortfolioCard } from '@/components'
 import { getDictionary } from '@/get-dictionary'
 import { Locale } from '@/i18n-config'
+
 export default async function Home({ params: { language } }: { params: { language: Locale } }) {
   const dictionary = await getDictionary(language)
 
