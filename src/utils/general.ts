@@ -26,6 +26,14 @@ interface ProyectsType {
     proyectCard: InfoCardProps
     srcImg: string
   }
+  nfthub: {
+    proyectCard: InfoCardProps
+    srcImg: string
+  }
+  teachit: {
+    proyectCard: InfoCardProps
+    srcImg: string
+  }
 
   footer: FooterProps
 }

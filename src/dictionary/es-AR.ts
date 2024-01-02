@@ -41,7 +41,7 @@ const ES_AR: DictionaryType = {
         mode: 'proyect',
         title_h1: 'Lawyer',
         description: 'Landing page para un bufete de abogados, este proyecto se realizó a modo de ejemplo. Se trata de una página web que busca captar la atención de clientes potenciales, mostrando los servicios que ofrece el bufete, su historia y sus valores.',
-        tecnologies: 'Tecnologias: Next.js - React-tailwind.CSS - TypeScript - clsx - husky',
+        tecnologies: 'Tecnologias: Next.js - React - tailwind.CSS - TypeScript - clsx - husky',
         githubUrlProyect: 'https://github.com/demattei-teo/Lawyer',
         LinkProyect: 'https://lawyerdev.vercel.app/'
       }
@@ -65,6 +65,26 @@ const ES_AR: DictionaryType = {
         tecnologies: 'Tecnologias: Expo - React Native - nativeWind - clsx - husky - JavaScript',
         githubUrlProyect: 'https://github.com/No-Country/C12-38-M-REACTNATIVE',
         LinkProyect: 'https://expo.dev/@florencia09/lot-todo?serviceType=classic&distribution=expo-go'
+      }
+    },
+    nfthub: {
+      srcImg: '/assets/mockups/NFTHUB_1.jpg',
+      proyectCard: {
+        mode: 'proyect',
+        title_h1: 'NFTHUB',
+        description: 'El objetivo de la landing page es atraer la atencion de los usuarios sobre los servicios o productos que ofrece la misma, mostrando un diseño atractivo, responsivo y moderno.',
+        tecnologies: 'Tecnologias: Next.js - React.js - clsx - TypeScript - NextAuth.js - tailwind.css',
+        githubUrlProyect: 'https://github.com/demattei-teo/nfthub',
+        LinkProyect: 'https://nfthub-mu.vercel.app/'
+      }
+    },
+    teachit: {
+      srcImg: '/assets/mockups/teachit.png',
+      proyectCard: {
+        mode: 'proyect',
+        title_h1: 'NFTHUB',
+        description: 'Pagina en construcción...',
+        tecnologies: 'Tecnologias: Next.js - React.js - clsx - TypeScript - tailwind.css - Axios'
       }
     },
     footer: {

@@ -17,7 +17,7 @@ type ProjectConfigurations = {
 }
 
 async function Proyect({ params }: { params: { language: Locale; proyects: string } }) {
-  const validProyect = ['lawyer', 'mova', 'lotTodo', 'rodaroArchitects']
+  const validProyect = ['lawyer', 'mova', 'lotTodo', 'rodaroArchitects', 'nfthub', 'teachit']
   const { proyects } = params
   const dictionary = await getDictionary(params.language)
   const projectConfigurations: ProjectConfigurations = {
@@ -52,6 +52,22 @@ async function Proyect({ params }: { params: { language: Locale; proyects: strin
       tecnologies: dictionary.default.proyects.rodaroArchitects.proyectCard.tecnologies,
       linkProyect: dictionary.default.proyects.rodaroArchitects.proyectCard.LinkProyect,
       githubUrlProyect: dictionary.default.proyects.rodaroArchitects.proyectCard.githubUrlProyect
+    },
+    nfthub: {
+      srcImg: dictionary.default.proyects.nfthub.srcImg,
+      title_h1: dictionary.default.proyects.nfthub.proyectCard.title_h1,
+      description: dictionary.default.proyects.nfthub.proyectCard.description,
+      tecnologies: dictionary.default.proyects.nfthub.proyectCard.tecnologies,
+      linkProyect: dictionary.default.proyects.nfthub.proyectCard.LinkProyect,
+      githubUrlProyect: dictionary.default.proyects.nfthub.proyectCard.githubUrlProyect
+    },
+    teachit: {
+      srcImg: dictionary.default.proyects.teachit.srcImg,
+      title_h1: dictionary.default.proyects.teachit.proyectCard.title_h1,
+      description: dictionary.default.proyects.teachit.proyectCard.description,
+      tecnologies: dictionary.default.proyects.teachit.proyectCard.tecnologies,
+      linkProyect: dictionary.default.proyects.teachit.proyectCard.LinkProyect,
+      githubUrlProyect: dictionary.default.proyects.teachit.proyectCard.githubUrlProyect
     }
   }
 
