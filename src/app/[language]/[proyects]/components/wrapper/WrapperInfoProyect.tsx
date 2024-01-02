@@ -2,7 +2,7 @@ import { InfoCard } from '@/components'
 import { InfoCardProps } from '@/components/cards/InfoCard'
 import Image from 'next/image'
 
-interface WrapperInfoProyectProps {
+export interface WrapperInfoProyectProps {
   srcImg: string
   title_h1: InfoCardProps['title_h1']
   description: InfoCardProps['description']
