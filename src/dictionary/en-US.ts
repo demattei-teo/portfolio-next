@@ -102,7 +102,7 @@ const EN_US: DictionaryType = {
       }
     },
     teachit: {
-      srcImg: '/assets/mockups/teachit.jpg',
+      srcImg: '/assets/mockups/teachIT.jpg',
       proyectCard: {
         mode: 'proyect',
         title_h1: 'TeachIT',
