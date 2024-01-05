@@ -16,6 +16,29 @@ const EN_US: DictionaryType = {
       contentButton: 'Contact Me',
       linkCV: 'https://drive.google.com/file/d/1jzb5Lqk93m4mcxVlwNzrLcJs3LEd-NcB/view?usp=drive_link'
     },
+    reviews: [
+      {
+        name: 'David Mamani',
+        description: 'I`ve worked on many projects with Teo, excellent performance.',
+        hrefLinkedin: 'https://www.linkedin.com/in/davidmedev/',
+        hrefGithub: 'https://github.com/davidmedev222',
+        srcImage: '/assets/reviews-images/david.png'
+      },
+      {
+        name: 'Nahuel Krowicki',
+        description: 'Very good quality projects',
+        hrefLinkedin: 'https://www.linkedin.com/in/nahuel-krowicki/',
+        hrefGithub: 'https://github.com/nkrowicki',
+        srcImage: '/assets/reviews-images/Nahuel.png'
+      },
+      {
+        name: 'Dylan Ramirez',
+        description: 'Very friendly to work and dedicated to the project in question.',
+        hrefLinkedin: 'https://www.linkedin.com/in/dylanramirez20/',
+        hrefGithub: 'https://github.com/DruckDeveloper',
+        srcImage: '/assets/reviews-images/dylan.jpeg'
+      }
+    ],
     footer: {
       title_span: 'Want to work together?',
       description: 'Feel free to reach out for collaborations or just a friendly hello',
@@ -79,7 +102,7 @@ const EN_US: DictionaryType = {
       }
     },
     teachit: {
-      srcImg: '/assets/mockups/teachit.png',
+      srcImg: '/assets/mockups/teachit.jpg',
       proyectCard: {
         mode: 'proyect',
         title_h1: 'TeachIT',

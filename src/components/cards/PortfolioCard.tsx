@@ -1,3 +1,6 @@
+'use client'
+import useIntersectionObserver from '@/hooks/useIntersectionObserver'
+import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IconLink } from '..'
@@ -9,8 +12,10 @@ interface Props {
 }
 
 export default function PortfolioCard({ srcImg, altImg, srcLink }: Props) {
+  const [ref, isIntersecting] = useIntersectionObserver(0.5)
+  const wrapper = clsx('shadow-md z-20 opacity-0 rounded-2xl relative min-h-[350px] group', isIntersecting && 'animate-fade-up')
   return (
-    <Link href={srcLink} className='shadow-md z-20 rounded-2xl relative min-h-[350px] group'>
+    <Link href={srcLink} className={wrapper} ref={ref}>
       <div
         className='absolute right-5 bottom-5 transition lg:opacity-0
        rounded-full shadow-sm lg:group-hover:opacity-100 z-20'
