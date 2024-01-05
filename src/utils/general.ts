@@ -1,4 +1,5 @@
 import { InfoCardProps } from '@/components/cards/InfoCard'
+import { ReviewCardProps } from '@/components/cards/ReviewCard'
 import { FooterProps } from '@/components/footer/Footer'
 import { HeroProps } from '@/components/hero/Hero'
 import { HeaderProps } from '@/components/nav-bar/Header'
@@ -6,6 +7,7 @@ import { HeaderProps } from '@/components/nav-bar/Header'
 interface HomeType {
   header: HeaderProps
   hero: HeroProps
+  reviews: ReviewCardProps[]
   footer: FooterProps
 }
 

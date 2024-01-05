@@ -16,6 +16,29 @@ const ES_AR: DictionaryType = {
       contentButton: 'Contacteme',
       linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
     },
+    reviews: [
+      {
+        name: 'David Mamani',
+        description: 'Trabaje en muchos proyectos con Teo, excelente desempeño',
+        hrefLinkedin: 'https://www.linkedin.com/in/davidmedev/',
+        hrefGithub: 'https://github.com/davidmedev222',
+        srcImage: '/assets/reviews-images/david.png'
+      },
+      {
+        name: 'Nahuel Krowicki',
+        description: 'Muy buena calidad en los proyectos realizados',
+        hrefLinkedin: 'https://www.linkedin.com/in/nahuel-krowicki/',
+        hrefGithub: 'https://github.com/nkrowicki',
+        srcImage: '/assets/reviews-images/Nahuel.png'
+      },
+      {
+        name: 'Dylan Ramirez',
+        description: 'Muy amigable al trabajar y dedicado con el proyecto a realizar.',
+        hrefLinkedin: 'https://www.linkedin.com/in/dylanramirez20/',
+        hrefGithub: 'https://github.com/DruckDeveloper',
+        srcImage: '/assets/reviews-images/dylan.jpeg'
+      }
+    ],
     footer: {
       title_span: '¿Quieres que trabajemos juntos?',
       description: 'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
