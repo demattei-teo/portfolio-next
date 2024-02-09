@@ -16,6 +16,11 @@
   }
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
   .wrapper {
     @apply mx-auto my-0 max-w-6xl 2xl:max-w-7xl p-4;

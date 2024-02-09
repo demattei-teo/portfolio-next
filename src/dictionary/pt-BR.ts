@@ -111,7 +111,7 @@ const PT_BR: DictionaryType = {
       srcImg: '/assets/mockups/teachIT.jpg',
       proyectCard: {
         mode: 'proyect',
-        title_h1: 'teachIT',
+        title_h1: 'TeachIT',
         description:
           'Landing page orientada para a educação dos utilizadores, este projeto apresenta uma landing page para a agência de educação (em construção...).',
         tecnologies: 'Tecnologias: Next.js - React.js - clsx - TypeScript - tailwind.css - Axios',

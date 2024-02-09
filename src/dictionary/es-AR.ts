@@ -112,9 +112,9 @@ const ES_AR: DictionaryType = {
       srcImg: '/assets/mockups/teachIT.jpg',
       proyectCard: {
         mode: 'proyect',
-        title_h1: 'teachIT',
+        title_h1: 'NFTHUB',
         description:
-          'Landing page orientada a la enseñanza de los usuarios, en este proyecto se muestra un landing page para la agencia de educación (en construccion...).',
+          'Landing page orientada a la educación de los usuarios, este proyecto muestra una landing page para la agencia de educación (en construcción...).',
         tecnologies: 'Tecnologias: Next.js - React.js - clsx - TypeScript - tailwind.css - Axios',
         githubUrlProyect: 'https://teachit.vercel.app/',
         LinkProyect: 'https://github.com/demattei-teo/teach-it'
