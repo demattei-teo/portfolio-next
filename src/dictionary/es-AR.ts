@@ -116,8 +116,8 @@ const ES_AR: DictionaryType = {
         description:
           'Landing page orientada a la educación de los usuarios, este proyecto muestra una landing page para la agencia de educación (en construcción...).',
         tecnologies: 'Tecnologias: Next.js - React.js - clsx - TypeScript - tailwind.css - Axios',
-        githubUrlProyect: 'https://teachit.vercel.app/',
-        LinkProyect: 'https://github.com/demattei-teo/teach-it'
+        githubUrlProyect: 'https://github.com/demattei-teo/teach-it',
+        LinkProyect: 'https://teachit.vercel.app/'
       }
     },
     footer: {
