@@ -13,9 +13,9 @@ const ES_AR: DictionaryType = {
     hero: {
       title_h1: 'Hola, me llamo Teo',
       description:
-        'Soy un desarrollador Frontend con 2 años de experiencia trabajando para la agencia digital nubedi y la start up No Country',
+        'Soy un desarrollador de software con 2 años de experiencia trabajando para la empresa ISSD y el startup No Country.',
       contentButton: 'Contacteme',
-      linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
+      linkCV: 'https://drive.google.com/file/d/1QErRcOb2djsfMhLf9tfBCzfh8HfRs1lp/view?usp=sharing'
     },
     reviews: [
       {
@@ -46,7 +46,7 @@ const ES_AR: DictionaryType = {
         'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
       email: 'dematteiteo@gmail.com',
       contentButton: 'Contactame',
-      linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
+      linkCV: 'https://drive.google.com/file/d/1QErRcOb2djsfMhLf9tfBCzfh8HfRs1lp/view?usp=sharing'
     }
   },
   proyects: {
@@ -126,7 +126,7 @@ const ES_AR: DictionaryType = {
         'No dude en ponerse en contacto con nosotros para colaborar o simplemente para saludarnos amistosamente.',
       email: 'dematteiteo@gmail.com',
       contentButton: 'Contactame',
-      linkCV: 'https://drive.google.com/file/d/158HReNy2g-AMjFEYzOPoMNVgrmlLArnl/view?usp=drive_link'
+      linkCV: 'https://drive.google.com/file/d/1QErRcOb2djsfMhLf9tfBCzfh8HfRs1lp/view?usp=sharing'
     }
   }
 }

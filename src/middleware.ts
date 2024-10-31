@@ -3,14 +3,11 @@ import Negotiator from 'negotiator'
 import { NextRequest } from 'next/server'
 import { i18n } from './i18n-config'
 
-console.log('hola')
 function getLocale(request: NextRequest) {
   const browserLanguage = request.headers.get('accept-language') ?? ''
   const headers = { 'accept-language': browserLanguage }
   const languages = new Negotiator({ headers }).languages()
   const locale = match(languages, i18n.locales, i18n.defaultLocale)
-  console.log(languages)
-  console.log(locale)
   return locale
 }
 

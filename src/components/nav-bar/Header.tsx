@@ -19,7 +19,7 @@ function Header({ contentLinks }: HeaderProps) {
   }
 
   const classes = {
-    header: clsx('wrapper flex overflow-hidden justify-between flex-col px-4 py-4 md:flex-row'),
+    header: clsx('wrapper flex overflow-hidden justify-between flex-col px-4 py-4 md:flex-row [svg]'),
     contResponsive: clsx('w-full flex justify-between items-center')
   }
 
