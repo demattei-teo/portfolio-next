@@ -13,7 +13,7 @@ const PT_BR: DictionaryType = {
     hero: {
       title_h1: 'Olá, o meu nome é Teo',
       description:
-        'Sou um programador Frontend com 2 anos de experiência a trabalhar para a agência digital nubedi e para a start up No Country',
+        'Sou um desenvolvedor de software com 2 anos de experiência trabalhando para a ISSD e para a startup No Country.',
       contentButton: 'Contacte-Me',
       linkCV: 'https://drive.google.com/file/d/1QigTVsDJwECQ4-TOA4m7TzieBi_iVhN_/view?usp=drive_link'
     },
